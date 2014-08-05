@@ -21,18 +21,6 @@ ul
         text-align: center;
 }
 
-a:link {
-    color: #000000;
-    text-decoration: none;
-    border: 1px solid white;
-    padding: 4px 10px;
-}
-
-a:hover {
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
 h2 {
     font-family: AirDota;
 }
@@ -69,6 +57,18 @@ h3 {
 
 }
 
+.nava {
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 4px 10px;
+}
+
+.nava:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 #content{
 
     font-family: Adobe Garamond Pro;
@@ -85,4 +85,14 @@ h3 {
 .imgstyle{
     float: left;
     margin-right: 10px;
+}
+
+.titlelink {
+    text-decoration: none;
+    color: black;
+
+}
+
+.titlelink:hover {
+    text-decoration: underline;
 }

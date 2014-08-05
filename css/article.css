@@ -21,18 +21,6 @@ ul
         text-align: center;
 }
 
-a:link {
-    color: #000000;
-    text-decoration: none;
-    padding: 3px 10px;
-    border: 1px solid white;
-}
-
-a:hover {
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
 h2 {
     font-family: AirDota;
     margin-top: 0px;
@@ -70,6 +58,18 @@ h3 {
     font-family: AirDota;
     display: inline-block;
     padding: 4px 4px;
+}
+
+.nava {
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 4px 10px;
+}
+
+.nava:hover {
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 #content{
@@ -136,6 +136,12 @@ p, articlep {
     
     width: 190px;
     display: inline-block;
+
+}
+
+.tips{
+    margin-left: 10px;
+    font-style: italic;
 
 }
 
