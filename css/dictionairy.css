@@ -104,60 +104,15 @@ h3 {
 .term {
     font-size: 3em;
     text-align: center;
-}
-
-#defcontainer{
-    width: 1000px;
-    margin: auto;
-}
-
-#defleft{
-    width: 190px;
-    display: inline-block;
-    vertical-align: top;
-    font-style: italic;
-}
-
-#defcenter{
-    width: 599px;
-    padding-left: 15px;
-    padding-right: 8px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    display: inline-block;
-    vertical-align: top;
-    font-size: 1.4em;
-    
-}
-
-#defright{
-    width: 160px;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 10px;
-}
-
-.related{
-    font-size: 1.1em;
     display: block;
+    margin-top: 15px;
 }
 
-a, related{
+a, term{
     text-decoration: none;
     color: black;
 }
 
-a:hover, related {
+a:hover, term{
     text-decoration: underline;
-}
-.defimg {
-    margin: auto;
-    display: block;
-    border-radius: 5px;
-}
-
-#tip1{
-    margin-top: 100px;
-}
-
-
+} 
