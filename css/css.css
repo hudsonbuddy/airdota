@@ -28,6 +28,8 @@ h2 {
 h3 {
     font-family: Adobe Garamond Pro;
     color: #C0C0C0;
+    font-weight: normal;
+    letter-spacing: 1px;
 }
  
 #header{
