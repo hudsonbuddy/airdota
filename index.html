@@ -1,41 +1,31 @@
 <html ng-app="airdota">
     <head>
-        <link rel="stylesheet" href="/css/css.css">
         <script src="/bower_components/angular/angular.js"></script>
         <script src="/bower_components/angular-route/angular-route.js"></script>
         <script src="/bower_components/angular-sanitize/angular-sanitize.js"></script>
         <script src="/js/app.js"></script>
+        <link rel="stylesheet" href="/css/css.css">
         <base href="/" />
     </head>
     <body ng-controller="airdotaController">
         <header id="header">
             <div>
-                <p id="logo">AirDotA</p> 
+                <a href="/" style="text-decoration: none;"><p id="logo">AirDotA</p></a> 
             </div>
             <nav id="navigation">
                 <ul>
                     <li class="navelement">
-                        <a class="nava" href="/">Home</a>
+                        <a class="nava" href="#/essays">Essays</a>
                     </li>
                     <li class="navelement">
-                        <a class="nava" href="/templates/essays.html">Essays</a>
+                        <a class="nava" href="https://www.youtube.com/channel/UC33_uZpWVj3W1iZEP1lormw">Video</a>
                     </li>
                     <li class="navelement">
-                        <a class="nava" href="https://www.youtube.com/channel/UCaR9eB77TBwS4CqelYoquig">Video</a>
-                    </li>
-                    <li class="navelement">
-                        <a class="nava" href="/templates/inhouse.html">Inhouse</a>
-                    </li>
-                    <li class="navelement">
-                        <a class="nava" href="/templates/dictionairy.html">Dictionairy</a>
+                        <a class="nava" href="#/dict">Dictionairy</a>
                     </li>
                     <li class="navelement">
                         <a class="nava" href="http://dota2.gamepedia.com/Dota_2_Wiki">Dota 2 Wiki</a>
                     </li>
-                    <li class="navelement">
-                        <a class="nava" href="/templates/archive.html">Archive</a>
-                    </li>
-             
                 </ul>
             </nav>
         </header> 

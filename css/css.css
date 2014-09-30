@@ -1,4 +1,8 @@
+
+/* Main Page and essays index css */
+
 @font-face{
+    
     font-family: Adobe Garamond Pro;
     src: url('/css/garamond.ttf');
 }
@@ -49,13 +53,13 @@ h3 {
     padding-top: 10px;
     margin-top: 0px;
     margin-bottom: 10px;
+    color:black;
 }
 
 .navelement{
 
     font-family: AirDota;
     display: inline-block;
-    padding: 4px 4px;
 
 }
 
@@ -63,12 +67,13 @@ h3 {
     color: #000000;
     text-decoration: none;
     border: 1px solid white;
-    padding: 4px 10px;
+    padding: 4px 15px;
 }
 
 .nava:hover {
     border: 1px solid black;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 #content{
@@ -93,9 +98,212 @@ h3 {
 .titlelink {
     text-decoration: none;
     color: black;
+    font-size: 2em;
+    font-weight: bold; 
 
 }
 
 .titlelink:hover {
     text-decoration: underline;
 }
+
+.oneliner{
+    color: #C0C0C0;
+    font-size: 1.17em;
+    letter-spacing: 1px;
+}
+
+/*Begin Css for essays */
+
+#banner{
+    position: absolute;
+    z-index: -11;
+    width: 100%;
+    overflow: hidden;
+    height: 325px;
+}
+
+#bannerimg{
+
+    width: 100%;
+    position: relative;
+    top: -50px;
+
+}
+
+#bannertranslucent{
+    position: absolute;
+    z-index: -11;
+    width: 100%;
+    overflow: hidden;
+    height: 325px;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.articletop{
+    width: 800px;
+    margin: auto;
+    border-bottom: 1px solid #9a9a9a;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    color: white;    
+}
+
+.articletitle{
+    color: white;
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+.authordate{
+    font-size: 1.17em;
+}
+
+#articlecontainer{
+
+    width: 840px;
+    margin: auto;
+
+}
+
+.articleleft {
+    
+    width: 639px;
+    border-right: 1px solid grey;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+p, articlep {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+
+.articleright{
+    
+    width: 190px;
+    display: inline-block;
+
+}
+
+.tips{
+    margin-left: 10px;
+    font-style: italic;
+
+}
+
+#tip1{
+
+    margin-top: 200px;
+
+}
+
+#tip2{
+
+    margin-top: 400px;
+}
+
+
+/* Being CSS for Dictionary */
+
+#dictnav{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.letternav{
+    font-size: 1.4em;
+    color: black;
+    text-decoration: none;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.letternav:hover {
+    text-decoration: underline;
+
+}
+
+#termcontainer{
+    border-top: 1px solid black;
+    width: 1040px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.term {
+    font-size: 3em;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+}
+
+a, term{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, term{
+    text-decoration: underline;
+} 
+
+/* Begin style sheets for dictentry */
+
+
+#defcontainer{
+    width: 1000px;
+    margin: auto;
+}
+
+#defleft{
+    width: 190px;
+    display: inline-block;
+    vertical-align: top;
+    font-style: italic;
+}
+
+#defcenter{
+    width: 599px;
+    padding-left: 15px;
+    padding-right: 8px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.4em;
+    
+}
+
+#defright{
+    width: 160px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.related{
+    font-size: 1.1em;
+    display: block;
+}
+
+a, related{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, related {
+    text-decoration: underline;
+}
+.defimg {
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+#tip1{
+    margin-top: 100px;
+}
+
+
