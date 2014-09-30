@@ -5,9 +5,13 @@ app.run(function($rootScope) {
       $rootScope.name = "Hudson";
 });
 
-app.config(["$routeProvider", function($routeProvider){
+app.config(["$routeProvider", "$locationProvider", function($routeProvider, $locationProvider){
 
     $routeProvider.otherwise({redirectTo: '/'});
+    $routeProvider.when('/', {templateUrl:'/templates/home.html'});
+
+    $locationProvider.html5Mode(true);
+    
 
 
 }]);
@@ -15,8 +19,5 @@ app.config(["$routeProvider", function($routeProvider){
 app.controller('airdotaController', function($scope) {
     
     $scope.person = "Duan"; 
-
-        
-
 
 });
