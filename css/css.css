@@ -1,11 +1,11 @@
 @font-face{
     font-family: Adobe Garamond Pro;
-    src: url('AdobeGP.ttf');
+    src: url('/css/garamond.ttf');
 }
 
 @font-face{
     font-family: AirDota;
-    src: url('airdota.ttf') format("truetype");
+    src: url('/css/airdota.ttf') format("truetype");
 }
 
 body{
