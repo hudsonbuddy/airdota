@@ -25,17 +25,6 @@ ul
         text-align: center;
 }
 
-h2 {
-    font-family: AirDota;
-}
-
-h3 {
-    font-family: Adobe Garamond Pro;
-    color: #C0C0C0;
-    font-weight: normal;
-    letter-spacing: 1px;
-}
- 
 #header{
 
     width: 100%;
@@ -93,6 +82,7 @@ h3 {
 .imgstyle{
     float: left;
     margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 .titlelink {
