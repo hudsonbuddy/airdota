@@ -13,14 +13,15 @@ app.config(["$routeProvider", "$locationProvider", function($routeProvider, $loc
     $routeProvider.otherwise({redirectTo: '/'});
     $routeProvider.when('/', {templateUrl:'/templates/home.html'});
     $routeProvider.when('/essays', {templateUrl:'/templates/essays.html'});
-    $routeProvider.when('/dict', {templateUrl:'/templates/dict.html'});
-    $routeProvider.when('/entry', {templateUrl:'/templates/dictentry.html'});
+    $routeProvider.when('/dict', {templateUrl:'/dict/dict.html'});
+    $routeProvider.when('/entry', {templateUrl:'/dict/dictentry.html'});
 
     //Essay Routes
     $routeProvider.when('/beginnings', {templateUrl:'/essays/beginnings.html'});
     $routeProvider.when('/soul', {templateUrl:'/essays/soul.html'});
     $routeProvider.when('/medusa', {templateUrl:'/essays/medusa.html'});   
-    
+    $routeProvider.when('/qop', {templateUrl:'/essays/qop.html'});   
+    $routeProvider.when('/lina', {templateUrl:'/essays/lina.html'});      
 
 }]);
 
