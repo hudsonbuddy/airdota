@@ -18,7 +18,7 @@ app.config(["$routeProvider", "$locationProvider", function($routeProvider, $loc
 
     //Essay Routes
     $routeProvider.when('/beginnings', {templateUrl:'/essays/beginnings.html'});
-
+    $routeProvider.when('/soul', {templateUrl:'/essays/soul.html'});
     
 
 }]);
